@@ -4,6 +4,7 @@ var number = [];
 
 function takeANumber(number, name){
   for (let i = 0, i<katzDeliLine.length, i++){
-    katzDeliLine.push(`Welcome, ${name[i]} plays ${instruments[i]}`);
+    katzDeliLine.push(`Welcome, ${name[i]}. You are ${instruments[i]}`);
   }
+  return katzDeliLine;
 }
