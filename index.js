@@ -5,9 +5,4 @@ function takeANumber(number, name){
   return katzDeliLine;
 }
 
-function currentLine(number, name){
-  for (let i = 0; i<katzDeliLine.length; i++){
-    katzDeliLine.push(`Welcome, ${name[i]}. You are ${instruments[i]}`);
-  }
-  return katzDeliLine;
-}
+
